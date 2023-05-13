@@ -187,3 +187,7 @@ Select 当失去焦点时会关闭下拉框，如果你可以通过阻止默认�
 Select 无障碍辅助元素仅在弹窗展开时创建，因而当你在进行无障碍检测时请先打开下拉后再进行测试。对于 `aria-label` 与 `aria-labelledby` 属性缺失警告，请自行为 Select 组件添加相应无障碍属性。
 
 Select 虚拟滚动会模拟无障碍绑定元素。如果需要读屏器完整获取全部列表，你可以设置 `virtual={false}` 关闭虚拟滚动，无障碍选项将会绑定到真实元素上。
+
+### 开启 `OptGroup `，并自定义 `fieldNames` 时，分组 `label` 不显示？
+
+设置 `filedNames` 之后， `OptGroup` 中的`label`字段名 也会更改为 `fieldNames` 中的 `label`字段值
